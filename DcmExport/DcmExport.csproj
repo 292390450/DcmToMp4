@@ -5,7 +5,7 @@
     <Nullable>enable</Nullable>
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
 	  <LangVersion>latest</LangVersion>
-	  <PackageReadmeFile>README.md</PackageReadmeFile>
+	  <PackageReadmeFile>.\README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
