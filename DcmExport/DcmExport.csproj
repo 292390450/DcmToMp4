@@ -9,11 +9,28 @@
 	  <PackageName>DicomToMp4</PackageName>
 	  <RepositoryUrl>https://github.com/292390450/DcmToMp4.git</RepositoryUrl>
 	  <RepositoryType>git</RepositoryType>
+	  <PackageId>DicomToMp4</PackageId>
+	  <VersionPrefix>1.0.1</VersionPrefix>
+	  <PackageProjectUrl>https://github.com/292390450/DcmToMp4.git</PackageProjectUrl>
+	  <Description># DicomToMp4
+dicom File export to mp4
+## use
+1.Set the ffmpeg dynamic library directory
+
+`ffmpeg.RootPath =Path.Combine( AppContext.BaseDirectory, "NativeApi");`
+
+2.invoke
+
+` DcmExporter.Export(string sourcePath,string destPath,int width=0,int height=0,int frameRate=10)`
+
+
+&gt;You can install the corresponding package version according to your ffmpeg version
+[[NuGet]](https://www.nuget.org/packages/FFmpeg.AutoGen)</Description>
   </PropertyGroup>
 
   <ItemGroup>
-	  <None Include="README.md" Pack="true" PackagePath="\"/>
-	  <PackageReference Include="FFmpeg.AutoGen" Version="6.1.0" />
+	  <None Include="README.md" Pack="true" PackagePath="\" />
+	  <PackageReference Include="FFmpeg.AutoGen" Version="4.2.0" />
     <PackageReference Include="fo-dicom" Version="5.1.2" />
   </ItemGroup>
 
