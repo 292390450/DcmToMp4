@@ -6,6 +6,7 @@
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
 	  <LangVersion>latest</LangVersion>
 	  <PackageReadmeFile>.\README.md</PackageReadmeFile>
+	  <PackageName>DicomToMp4</PackageName>
   </PropertyGroup>
 
   <ItemGroup>
