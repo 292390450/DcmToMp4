@@ -10,7 +10,7 @@ namespace DcmExport
     {
         public unsafe static void Export(string sourcePath,string destPath,int width=0,int height=0,int frameRate=10)
         {
-            ffmpeg.RootPath =Path.Combine( AppContext.BaseDirectory, "NativeApi");
+           // ffmpeg.RootPath =Path.Combine( AppContext.BaseDirectory, "NativeApi");
             DicomImage dicomImage = new DicomImage(sourcePath);
             if (width==0||height==0)
             {
