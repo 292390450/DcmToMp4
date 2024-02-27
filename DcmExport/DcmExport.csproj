@@ -5,12 +5,15 @@
     <Nullable>enable</Nullable>
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
 	  <LangVersion>latest</LangVersion>
-	  <PackageReadmeFile>.\README.md</PackageReadmeFile>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
 	  <PackageName>DicomToMp4</PackageName>
+	  <RepositoryUrl>https://github.com/292390450/DcmToMp4.git</RepositoryUrl>
+	  <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="FFmpeg.AutoGen" Version="6.1.0" />
+	  <None Include="README.md" Pack="true" PackagePath="\"/>
+	  <PackageReference Include="FFmpeg.AutoGen" Version="6.1.0" />
     <PackageReference Include="fo-dicom" Version="5.1.2" />
   </ItemGroup>
 
