@@ -1,5 +1,5 @@
 # DicomToMp4
-dicom File export to mp4
+dicom File export to mp4 [NuGet](https://www.nuget.org/packages/DicomToMp4/)
 ## use
 1.Set the ffmpeg dynamic library directory
 
